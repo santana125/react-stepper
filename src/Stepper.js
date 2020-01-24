@@ -35,6 +35,7 @@ function Stepper({
             width={100 / steps.length}
             title={step.title}
             icon={step.icon}
+            awesomeIcon={step.awesomeIcon}
             href={step.href}
             onClick={step.onClick}
             active={!(disabledSteps || []).includes(index) && index === activeStep}
