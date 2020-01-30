@@ -127,7 +127,7 @@ export default class Step extends Component {
     const rightStyle = Object.assign(styles.rightBar, completed ? styles.completedBar : {});
 
     const stepContent = icon ? <img src={icon} alt={index + 1} /> : index + 1;
-    stepContent = awesomeIcon ? <span class={ "fa " + awesomeIcon} alt={index + 1 }/> : index + 1;
+    stepContent = awesomeIcon ? <span className={ "fa " + awesomeIcon} alt={index + 1 }/> : index + 1;
 
     return (
       <div style={ styles.step }>
